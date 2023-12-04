@@ -1,0 +1,84 @@
+.filterpage {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px;
+  @media (width < 700px) {
+    align-items: start;
+  }
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+}
+.datafilter {
+  max-width: 100%;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  max-height: 20vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  z-index: 20;
+}
+.filterbyname {
+  cursor: pointer;
+
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+.filterbutton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (width < 720px) {
+    padding: 2px 0px;
+  }
+  
+}
+
+.filtername {
+  overflow-x: hidden;
+  overflow-x: hidden;
+  margin-top: 10px;
+}
+
+input {
+  width: 40%;
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(32, 29, 24);
+  border-radius: 10px;
+  @media (width < 700px) {
+    width: 100px;
+    padding: 10px 0;
+  }
+
+
+}
+input::placeholder{
+    color: white;
+}
+.region {
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(165, 160, 160);
+  display: flex;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(32, 29, 24);
+}

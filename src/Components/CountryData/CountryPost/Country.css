@@ -1,0 +1,21 @@
+alldata{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+ul{
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+}
+li{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+}

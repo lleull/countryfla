@@ -1,0 +1,14 @@
+.app{
+  width: 100%;
+  background: rgb(77, 70, 70);
+  display: flex;
+  flex-direction: column;
+
+}
+.appbg{
+ 
+  width: 100%;
+  background: rgb(223, 219, 219);
+  display: flex;
+  flex-direction: column;
+}
